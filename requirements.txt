@@ -1,0 +1,11 @@
+# Libraries for Non-Linear Model Predictive Control (NMPC) and Optimization
+casadi
+do-mpc
+
+# Standard Scientific Computing and Plotting
+numpy
+matplotlib
+
+# Optional: If you used specific versions, you can freeze them like this:
+# casadi==3.6.7
+# do-mpc==4.6.5
