@@ -50,6 +50,7 @@ The project compares two objective functions ($J_1$ and $J_2$), both aiming to m
 The implementation successfully demonstrates the MPC's ability to plan a collision-free path by dynamically adjusting the control inputs over the prediction horizon $N_p$.
 
 The image below illustrates the path planned by the MPC for the manipulator's links, navigating around four distinct circular obstacles.
+<div align="center"> <img width="700" alt="MPC Trajectory Planning with Anti-Collision Constraints" src="https://github.com/user-attachments/assets/106bda1a-a921-452f-a6e8-dc98d466aa74" /> <p> <em>Fig 1: Planned trajectory of the mobile manipulator links (solid lines) successfully avoiding the four modeled static obstacle constraints (dashed circles).</em> </p> </div>
 
 
 
